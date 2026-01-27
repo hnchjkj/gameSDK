@@ -1,0 +1,731 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "CJService",
+    "printedName": "CJService",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CJService",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CJAppService",
+        "printedName": "CJAppService",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "showCustomerServicePage",
+            "printedName": "showCustomerServicePage()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:9CJService12CJAppServiceC012showCustomerC4PageyyFZ",
+            "mangledName": "$s9CJService12CJAppServiceC012showCustomerC4PageyyFZ",
+            "moduleName": "CJService",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:9CJService12CJAppServiceC",
+        "mangledName": "$s9CJService12CJAppServiceC",
+        "moduleName": "CJService",
+        "intro_iOS": "13.0",
+        "declAttributes": [
+          "AccessControl",
+          "Available"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CJCore",
+        "printedName": "CJCore",
+        "declKind": "Import",
+        "moduleName": "CJService",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "TZImagePickerController",
+        "printedName": "TZImagePickerController",
+        "declKind": "Import",
+        "moduleName": "CJService"
+      },
+      {
+        "kind": "Import",
+        "name": "YYText_swift",
+        "printedName": "YYText_swift",
+        "declKind": "Import",
+        "moduleName": "CJService"
+      },
+      {
+        "kind": "Import",
+        "name": "JXPhotoBrowser",
+        "printedName": "JXPhotoBrowser",
+        "declKind": "Import",
+        "moduleName": "CJService",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Kingfisher",
+        "printedName": "Kingfisher",
+        "declKind": "Import",
+        "moduleName": "CJService"
+      },
+      {
+        "kind": "Import",
+        "name": "MJRefresh",
+        "printedName": "MJRefresh",
+        "declKind": "Import",
+        "moduleName": "CJService",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SmartCodable",
+        "printedName": "SmartCodable",
+        "declKind": "Import",
+        "moduleName": "CJService",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CJService",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CJCore",
+        "printedName": "CJCore",
+        "declKind": "Import",
+        "moduleName": "CJService"
+      },
+      {
+        "kind": "Import",
+        "name": "AWSCore",
+        "printedName": "AWSCore",
+        "declKind": "Import",
+        "moduleName": "CJService",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AWSS3",
+        "printedName": "AWSS3",
+        "declKind": "Import",
+        "moduleName": "CJService"
+      },
+      {
+        "kind": "Import",
+        "name": "CJCore",
+        "printedName": "CJCore",
+        "declKind": "Import",
+        "moduleName": "CJService"
+      },
+      {
+        "kind": "Import",
+        "name": "JXPhotoBrowser",
+        "printedName": "JXPhotoBrowser",
+        "declKind": "Import",
+        "moduleName": "CJService",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CJCore",
+        "printedName": "CJCore",
+        "declKind": "Import",
+        "moduleName": "CJService",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CJCore",
+        "printedName": "CJCore",
+        "declKind": "Import",
+        "moduleName": "CJService",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Moya",
+        "printedName": "Moya",
+        "declKind": "Import",
+        "moduleName": "CJService"
+      },
+      {
+        "kind": "Import",
+        "name": "CJCore",
+        "printedName": "CJCore",
+        "declKind": "Import",
+        "moduleName": "CJService",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "SmartCodable",
+        "printedName": "SmartCodable",
+        "declKind": "Import",
+        "moduleName": "CJService"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/CJAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 289,
+      "length": 10,
+      "value": "\"Resource\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/CJAppService.swift",
+      "kind": "StringLiteral",
+      "offset": 316,
+      "length": 8,
+      "value": "\"bundle\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Utils\/CJConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 156,
+      "length": 12,
+      "value": "\"AvenirNext\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Utils\/CJConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 205,
+      "length": 17,
+      "value": "\"AvenirNext-Bold\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJCustomCollectionCell.swift",
+      "kind": "StringLiteral",
+      "offset": 239,
+      "length": 17,
+      "value": "\"CJService.Photo\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJCustomCollectionCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 419,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJCustomCollectionCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 482,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJCustomCollectionCell.swift",
+      "kind": "StringLiteral",
+      "offset": 685,
+      "length": 10,
+      "value": "\"Resource\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJCustomCollectionCell.swift",
+      "kind": "StringLiteral",
+      "offset": 705,
+      "length": 8,
+      "value": "\"bundle\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJCustomCollectionCell.swift",
+      "kind": "StringLiteral",
+      "offset": 806,
+      "length": 13,
+      "value": "\"icon_delete\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJCustomCollectionCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 957,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJCustomCollectionCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1021,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJCustomCollectionCell.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1153,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJCustomCollectionCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1192,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJCustomerServiceCreateController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 651,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJCustomerServiceCreateController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4990,
+      "length": 1,
+      "value": "9"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJCustomerServiceCreateController.swift",
+      "kind": "Array",
+      "offset": 6677,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJCustomerServiceCreateController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 12587,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJHistoryCell.swift",
+      "kind": "StringLiteral",
+      "offset": 247,
+      "length": 15,
+      "value": "\"CJHistoryCell\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJHistoryCell.swift",
+      "kind": "StringLiteral",
+      "offset": 5540,
+      "length": 25,
+      "value": "\"CJHistoryCollectionCell\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJHistoryCell.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5820,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJHistoryController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 362,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJHistoryController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 534,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/model\/CJHistoryModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 178,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/model\/CJHistoryModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 363,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/model\/CJHistoryModel.swift",
+      "kind": "Array",
+      "offset": 385,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/model\/CJHistoryModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 450,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/model\/CJHistoryModel.swift",
+      "kind": "StringLiteral",
+      "offset": 553,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/model\/CJHistoryModel.swift",
+      "kind": "StringLiteral",
+      "offset": 580,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/model\/CJHistoryModel.swift",
+      "kind": "StringLiteral",
+      "offset": 609,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/model\/CJHistoryModel.swift",
+      "kind": "Array",
+      "offset": 644,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/model\/CJHistoryModel.swift",
+      "kind": "StringLiteral",
+      "offset": 676,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/model\/CJHistoryModel.swift",
+      "kind": "Array",
+      "offset": 713,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/model\/CJHistoryModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 769,
+      "length": 4,
+      "value": "60.0"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/model\/CJHistoryModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 1614,
+      "length": 4,
+      "value": "15.0"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/model\/CJHistoryModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 1679,
+      "length": 4,
+      "value": "15.0"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/model\/CJHistoryModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 1742,
+      "length": 4,
+      "value": "44.0"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/model\/CJHistoryModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1749,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/model\/CJHistoryModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1820,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/model\/CJHistoryModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1883,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/model\/CJHistoryModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1972,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/model\/CJHistoryModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1977,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/model\/CJHistoryModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1999,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/model\/CJHistoryModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2022,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/model\/CJHistoryModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2026,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/model\/CJHistoryModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2067,
+      "length": 3,
+      "value": "105"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/model\/CJHistoryModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2092,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/model\/CJHistoryModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2097,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/model\/CJHistoryModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 2143,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/model\/CJHistoryModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2181,
+      "length": 2,
+      "value": "19"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/model\/CJHistoryModel.swift",
+      "kind": "FloatLiteral",
+      "offset": 2207,
+      "length": 4,
+      "value": "12.0"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/ViewModel\/CJHistoryViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 149,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/ViewModel\/CJHistoryViewModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 183,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/ViewModel\/CJHistoryViewModel.swift",
+      "kind": "Array",
+      "offset": 224,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJListEmptyView.swift",
+      "kind": "StringLiteral",
+      "offset": 379,
+      "length": 10,
+      "value": "\"Resource\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJListEmptyView.swift",
+      "kind": "StringLiteral",
+      "offset": 399,
+      "length": 8,
+      "value": "\"bundle\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJListEmptyView.swift",
+      "kind": "StringLiteral",
+      "offset": 500,
+      "length": 17,
+      "value": "\"icon_data_empty\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJListEmptyView.swift",
+      "kind": "StringLiteral",
+      "offset": 887,
+      "length": 11,
+      "value": "\"#FF7B7B7B\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJListEmptyView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 947,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJReplyDetails.swift",
+      "kind": "IntegerLiteral",
+      "offset": 662,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Utils\/CJServiceI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 158,
+      "length": 18,
+      "value": "\"faqSubmitSuccess\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Utils\/CJServiceI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 204,
+      "length": 17,
+      "value": "\"faqSubmitFailed\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Utils\/CJServiceI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 253,
+      "length": 21,
+      "value": "\"responseParseFailed\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Utils\/CJServiceI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 306,
+      "length": 21,
+      "value": "\"uploadFailureReason\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Utils\/CJServiceI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 353,
+      "length": 15,
+      "value": "\"uploadSuccess\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Utils\/CJServiceI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 393,
+      "length": 14,
+      "value": "\"uploadFailed\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Utils\/CJServiceI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 438,
+      "length": 15,
+      "value": "\"problemDetail\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Utils\/CJServiceI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 476,
+      "length": 12,
+      "value": "\"enterTitle\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Utils\/CJServiceI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 508,
+      "length": 9,
+      "value": "\"history\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Utils\/CJServiceI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 544,
+      "length": 16,
+      "value": "\"feedbackRecord\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Utils\/CJServiceI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 585,
+      "length": 14,
+      "value": "\"replyDetails\""
+    }
+  ]
+}

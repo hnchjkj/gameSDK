@@ -1,0 +1,67 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name CJAuth
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+import AuthenticationServices
+@_exported import CJAuth
+import CJCore
+import Combine
+import FBSDKCoreKit
+import FBSDKLoginKit
+import FirebaseAuth
+import FirebaseCore
+import Foundation
+import Kingfisher
+import LineSDK
+import Moya
+import SmartCodable
+import Swift
+import UIKit
+import WRSignInWithApple
+import WebKit
+import YYText_swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers public class CJAppAuth {
+  public static let shared: CJAuth.CJAppAuth
+  weak public var delegate: (any CJAuth.CJAuthResultDelegate)?
+  public static func setup(showLoginAfterInitialization: Swift.Bool = false, shouldAutorotate: Swift.Bool = false, orientationMask: UIKit.UIInterfaceOrientationMask = [.portrait])
+  public func showLoginController()
+  public func onGuestSignIn() throws
+  public func onAppleSignIn() throws
+  public func onFacebookSignIn() throws
+  public func onTwitterSignIn() throws
+  @_Concurrency.MainActor public func onLineSignIn() throws
+  public func onEmailSignIn(emailAddress: Swift.String, code: Swift.String)
+  public func onLogout(showLoginControllerWhenExit: Swift.Bool = true)
+  @_Concurrency.MainActor public func application(_ app: UIKit.UIApplication, continue userActivity: Foundation.NSUserActivity, restorationHandler: @escaping ([any UIKit.UIUserActivityRestoring]?) -> Swift.Void) -> Swift.Bool
+  @_Concurrency.MainActor public func application(_ app: UIKit.UIApplication, open url: Foundation.URL, options: [UIKit.UIApplication.OpenURLOptionsKey : Any] = [:]) -> Swift.Bool
+  @available(iOS 13.0, *)
+  @_Concurrency.MainActor public func scene(_ scene: UIKit.UIScene, openURLContexts URLContexts: Swift.Set<UIKit.UIOpenURLContext>)
+  @objc deinit
+}
+public struct CJAuthResult : SmartCodable.SmartCodableX {
+  public init()
+  public var userId: Swift.Int32
+  public var nickname: Swift.String
+  public var avatar: Swift.String
+  public var token: Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public protocol CJAuthResultDelegate : ObjectiveC.NSObject {
+  func loginSuccess(result: CJAuth.CJAuthResult)
+  func loginFailure(reason: Swift.String)
+  func logoutSuccess()
+  func logoutFailure(reason: Swift.String)
+}
+extension CJAuth.CJAuthResultDelegate {
+  public func loginFailure(reason: Swift.String)
+  public func logoutSuccess()
+  public func logoutFailure(reason: Swift.String)
+}
+@objc @_inheritsConvenienceInitializers public class CJFacebookSignIn : ObjectiveC.NSObject {
+  @objc override dynamic public init()
+  @objc deinit
+}

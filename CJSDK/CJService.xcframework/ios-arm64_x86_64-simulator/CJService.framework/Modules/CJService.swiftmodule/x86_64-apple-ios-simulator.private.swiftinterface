@@ -1,0 +1,25 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target x86_64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name CJService
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+import AWSCore
+import AWSS3
+import CJCore
+@_exported import CJService
+import JXPhotoBrowser
+import Kingfisher
+import MJRefresh
+import Moya
+import SmartCodable
+import Swift
+import TZImagePickerController
+import UIKit
+import YYText_swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+@_hasMissingDesignatedInitializers @available(iOS 13.0, *)
+public class CJAppService {
+  @_Concurrency.MainActor public static func showCustomerServicePage()
+  @objc deinit
+}

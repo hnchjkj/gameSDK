@@ -1,0 +1,11 @@
+framework module CJCore {
+  umbrella header "CJCore-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module CJCore.Swift {
+  header "CJCore-Swift.h"
+  requires objc
+}

@@ -1,0 +1,11 @@
+framework module CJAuth {
+  umbrella header "CJAuth-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module CJAuth.Swift {
+  header "CJAuth-Swift.h"
+  requires objc
+}

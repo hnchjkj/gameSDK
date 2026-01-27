@@ -1,0 +1,67 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name CJPayment
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+import Alamofire
+import CJCore
+@_exported import CJPayment
+import Foundation
+import Moya
+import SafariServices
+import Security
+import SmartCodable
+import StoreKit
+import Swift
+import UIKit
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct CJPayArgument {
+  public init(productId: Swift.String)
+  public init(orderDesc: Swift.String = "", productId: Swift.String, productName: Swift.String = "", quantity: Swift.Int = 0, currency: Swift.String = "", amount: Swift.Double = 0, payWay: CJPayment.CJPayType = .applePay, customParams: Swift.String = "")
+}
+public protocol CJPayDelegate : AnyObject {
+  func paymentStatusUpdate(status: CJPayment.CJPayStatus)
+}
+public enum CJPayError : Swift.Error {
+  case networkError
+  case invalidParameters
+  case authenticationFailed
+  case insufficientFunds
+  case paymentGatewayError(code: Swift.Int, message: Swift.String)
+  case userCancelled
+  case unknown
+}
+@_hasMissingDesignatedInitializers public class CJPayManager {
+  public static let shared: CJPayment.CJPayManager
+  weak public var delegate: (any CJPayment.CJPayDelegate)? {
+    get
+    set
+  }
+  public func pay(payargs: CJPayment.CJPayArgument)
+  public static func initialize()
+  @objc deinit
+}
+public enum CJPayStatus {
+  case purchasing
+  case purchased
+  case failed(Swift.String?)
+  case restored
+  case deferred
+}
+public enum CJPayType : Swift.String {
+  case applePay
+  case thirdPay
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension UIKit.UIApplication {
+  @_Concurrency.MainActor @preconcurrency public static func topViewController(base: UIKit.UIViewController? = UIApplication.shared.windows.first { $0.isKeyWindow }?.rootViewController) -> UIKit.UIViewController?
+}
+extension CJPayment.CJPayType : Swift.Equatable {}
+extension CJPayment.CJPayType : Swift.Hashable {}
+extension CJPayment.CJPayType : Swift.RawRepresentable {}

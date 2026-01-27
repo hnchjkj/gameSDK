@@ -1,0 +1,2699 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "CJAuth",
+    "printedName": "CJAuth",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "CJCore",
+        "printedName": "CJCore",
+        "declKind": "Import",
+        "moduleName": "CJAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "LineSDK",
+        "printedName": "LineSDK",
+        "declKind": "Import",
+        "moduleName": "CJAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "WRSignInWithApple",
+        "printedName": "WRSignInWithApple",
+        "declKind": "Import",
+        "moduleName": "CJAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "FBSDKCoreKit",
+        "printedName": "FBSDKCoreKit",
+        "declKind": "Import",
+        "moduleName": "CJAuth"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CJAppAuth",
+        "printedName": "CJAppAuth",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CJAppAuth",
+                "printedName": "CJAuth.CJAppAuth",
+                "usr": "s:6CJAuth9CJAppAuthC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CJAuth9CJAppAuthC6sharedACvpZ",
+            "mangledName": "$s6CJAuth9CJAppAuthC6sharedACvpZ",
+            "moduleName": "CJAuth",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CJAppAuth",
+                    "printedName": "CJAuth.CJAppAuth",
+                    "usr": "s:6CJAuth9CJAppAuthC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CJAuth9CJAppAuthC6sharedACvgZ",
+                "mangledName": "$s6CJAuth9CJAppAuthC6sharedACvgZ",
+                "moduleName": "CJAuth",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "delegate",
+            "printedName": "delegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "(any CJAuth.CJAuthResultDelegate)?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CJAuth9CJAppAuthC8delegateAA0A14ResultDelegate_pSgvp",
+            "mangledName": "$s6CJAuth9CJAppAuthC8delegateAA0A14ResultDelegate_pSgvp",
+            "moduleName": "CJAuth",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any CJAuth.CJAuthResultDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CJAuthResultDelegate",
+                        "printedName": "any CJAuth.CJAuthResultDelegate",
+                        "usr": "s:6CJAuth0A14ResultDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CJAuth9CJAppAuthC8delegateAA0A14ResultDelegate_pSgvg",
+                "mangledName": "$s6CJAuth9CJAppAuthC8delegateAA0A14ResultDelegate_pSgvg",
+                "moduleName": "CJAuth",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "(any CJAuth.CJAuthResultDelegate)?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "CJAuthResultDelegate",
+                        "printedName": "any CJAuth.CJAuthResultDelegate",
+                        "usr": "s:6CJAuth0A14ResultDelegateP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CJAuth9CJAppAuthC8delegateAA0A14ResultDelegate_pSgvs",
+                "mangledName": "$s6CJAuth9CJAppAuthC8delegateAA0A14ResultDelegate_pSgvs",
+                "moduleName": "CJAuth",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CJAuth9CJAppAuthC8delegateAA0A14ResultDelegate_pSgvM",
+                "mangledName": "$s6CJAuth9CJAppAuthC8delegateAA0A14ResultDelegate_pSgvM",
+                "moduleName": "CJAuth",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "setup",
+            "printedName": "setup(showLoginAfterInitialization:shouldAutorotate:orientationMask:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIInterfaceOrientationMask",
+                "printedName": "UIKit.UIInterfaceOrientationMask",
+                "hasDefaultArg": true,
+                "usr": "c:@E@UIInterfaceOrientationMask"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CJAuth9CJAppAuthC5setup28showLoginAfterInitialization16shouldAutorotate15orientationMaskySb_SbSo022UIInterfaceOrientationL0VtFZ",
+            "mangledName": "$s6CJAuth9CJAppAuthC5setup28showLoginAfterInitialization16shouldAutorotate15orientationMaskySb_SbSo022UIInterfaceOrientationL0VtFZ",
+            "moduleName": "CJAuth",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "showLoginController",
+            "printedName": "showLoginController()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CJAuth9CJAppAuthC19showLoginControlleryyF",
+            "mangledName": "$s6CJAuth9CJAppAuthC19showLoginControlleryyF",
+            "moduleName": "CJAuth",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onGuestSignIn",
+            "printedName": "onGuestSignIn()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CJAuth9CJAppAuthC13onGuestSignInyyKF",
+            "mangledName": "$s6CJAuth9CJAppAuthC13onGuestSignInyyKF",
+            "moduleName": "CJAuth",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAppleSignIn",
+            "printedName": "onAppleSignIn()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CJAuth9CJAppAuthC13onAppleSignInyyKF",
+            "mangledName": "$s6CJAuth9CJAppAuthC13onAppleSignInyyKF",
+            "moduleName": "CJAuth",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onFacebookSignIn",
+            "printedName": "onFacebookSignIn()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CJAuth9CJAppAuthC16onFacebookSignInyyKF",
+            "mangledName": "$s6CJAuth9CJAppAuthC16onFacebookSignInyyKF",
+            "moduleName": "CJAuth",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onTwitterSignIn",
+            "printedName": "onTwitterSignIn()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CJAuth9CJAppAuthC15onTwitterSignInyyKF",
+            "mangledName": "$s6CJAuth9CJAppAuthC15onTwitterSignInyyKF",
+            "moduleName": "CJAuth",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onLineSignIn",
+            "printedName": "onLineSignIn()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CJAuth9CJAppAuthC12onLineSignInyyKF",
+            "mangledName": "$s6CJAuth9CJAppAuthC12onLineSignInyyKF",
+            "moduleName": "CJAuth",
+            "declAttributes": [
+              "AccessControl",
+              "Custom",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onEmailSignIn",
+            "printedName": "onEmailSignIn(emailAddress:code:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CJAuth9CJAppAuthC13onEmailSignIn12emailAddress4codeySS_SStF",
+            "mangledName": "$s6CJAuth9CJAppAuthC13onEmailSignIn12emailAddress4codeySS_SStF",
+            "moduleName": "CJAuth",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onLogout",
+            "printedName": "onLogout(showLoginControllerWhenExit:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CJAuth9CJAppAuthC8onLogout27showLoginControllerWhenExitySb_tF",
+            "mangledName": "$s6CJAuth9CJAppAuthC8onLogout27showLoginControllerWhenExitySb_tF",
+            "moduleName": "CJAuth",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "application",
+            "printedName": "application(_:continue:restorationHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIApplication",
+                "printedName": "UIKit.UIApplication",
+                "usr": "c:objc(cs)UIApplication"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSUserActivity",
+                "printedName": "Foundation.NSUserActivity",
+                "usr": "c:objc(cs)NSUserActivity"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "([any UIKit.UIUserActivityRestoring]?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "[any UIKit.UIUserActivityRestoring]?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[any UIKit.UIUserActivityRestoring]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIUserActivityRestoring",
+                            "printedName": "any UIKit.UIUserActivityRestoring",
+                            "usr": "c:objc(pl)UIUserActivityRestoring"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CJAuth9CJAppAuthC11application_8continue18restorationHandlerSbSo13UIApplicationC_So14NSUserActivityCySaySo06UIUserJ9Restoring_pGSgctF",
+            "mangledName": "$s6CJAuth9CJAppAuthC11application_8continue18restorationHandlerSbSo13UIApplicationC_So14NSUserActivityCySaySo06UIUserJ9Restoring_pGSgctF",
+            "moduleName": "CJAuth",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "application",
+            "printedName": "application(_:open:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIApplication",
+                "printedName": "UIKit.UIApplication",
+                "usr": "c:objc(cs)UIApplication"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[UIKit.UIApplication.OpenURLOptionsKey : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "OpenURLOptionsKey",
+                    "printedName": "UIKit.UIApplication.OpenURLOptionsKey",
+                    "usr": "c:@T@UIApplicationOpenURLOptionsKey"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CJAuth9CJAppAuthC11application_4open7optionsSbSo13UIApplicationC_10Foundation3URLVSDySo0G17OpenURLOptionsKeyaypGtF",
+            "mangledName": "$s6CJAuth9CJAppAuthC11application_4open7optionsSbSo13UIApplicationC_10Foundation3URLVSDySo0G17OpenURLOptionsKeyaypGtF",
+            "moduleName": "CJAuth",
+            "declAttributes": [
+              "AccessControl",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "scene",
+            "printedName": "scene(_:openURLContexts:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIScene",
+                "printedName": "UIKit.UIScene",
+                "usr": "c:objc(cs)UIScene"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<UIKit.UIOpenURLContext>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIOpenURLContext",
+                    "printedName": "UIKit.UIOpenURLContext",
+                    "usr": "c:objc(cs)UIOpenURLContext"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CJAuth9CJAppAuthC5scene_15openURLContextsySo7UISceneC_ShySo16UIOpenURLContextCGtF",
+            "mangledName": "$s6CJAuth9CJAppAuthC5scene_15openURLContextsySo7UISceneC_ShySo16UIOpenURLContextCGtF",
+            "moduleName": "CJAuth",
+            "intro_iOS": "13.0",
+            "declAttributes": [
+              "AccessControl",
+              "Available",
+              "Custom"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:6CJAuth9CJAppAuthC",
+        "mangledName": "$s6CJAuth9CJAppAuthC",
+        "moduleName": "CJAuth",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CJCore",
+        "printedName": "CJCore",
+        "declKind": "Import",
+        "moduleName": "CJAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CJAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "WRSignInWithApple",
+        "printedName": "WRSignInWithApple",
+        "declKind": "Import",
+        "moduleName": "CJAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "CJCore",
+        "printedName": "CJCore",
+        "declKind": "Import",
+        "moduleName": "CJAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CJCore",
+        "printedName": "CJCore",
+        "declKind": "Import",
+        "moduleName": "CJAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Moya",
+        "printedName": "Moya",
+        "declKind": "Import",
+        "moduleName": "CJAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "CJCore",
+        "printedName": "CJCore",
+        "declKind": "Import",
+        "moduleName": "CJAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "SmartCodable",
+        "printedName": "SmartCodable",
+        "declKind": "Import",
+        "moduleName": "CJAuth"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CJAuthResult",
+        "printedName": "CJAuthResult",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CJAuthResult",
+                "printedName": "CJAuth.CJAuthResult",
+                "usr": "s:6CJAuth0A6ResultV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6CJAuth0A6ResultVACycfc",
+            "mangledName": "$s6CJAuth0A6ResultVACycfc",
+            "moduleName": "CJAuth",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "userId",
+            "printedName": "userId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int32",
+                "printedName": "Swift.Int32",
+                "usr": "s:s5Int32V"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CJAuth0A6ResultV6userIds5Int32Vvp",
+            "mangledName": "$s6CJAuth0A6ResultV6userIds5Int32Vvp",
+            "moduleName": "CJAuth",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CJAuth0A6ResultV6userIds5Int32Vvg",
+                "mangledName": "$s6CJAuth0A6ResultV6userIds5Int32Vvg",
+                "moduleName": "CJAuth",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int32",
+                    "printedName": "Swift.Int32",
+                    "usr": "s:s5Int32V"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CJAuth0A6ResultV6userIds5Int32Vvs",
+                "mangledName": "$s6CJAuth0A6ResultV6userIds5Int32Vvs",
+                "moduleName": "CJAuth",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CJAuth0A6ResultV6userIds5Int32VvM",
+                "mangledName": "$s6CJAuth0A6ResultV6userIds5Int32VvM",
+                "moduleName": "CJAuth",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "nickname",
+            "printedName": "nickname",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CJAuth0A6ResultV8nicknameSSvp",
+            "mangledName": "$s6CJAuth0A6ResultV8nicknameSSvp",
+            "moduleName": "CJAuth",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CJAuth0A6ResultV8nicknameSSvg",
+                "mangledName": "$s6CJAuth0A6ResultV8nicknameSSvg",
+                "moduleName": "CJAuth",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CJAuth0A6ResultV8nicknameSSvs",
+                "mangledName": "$s6CJAuth0A6ResultV8nicknameSSvs",
+                "moduleName": "CJAuth",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CJAuth0A6ResultV8nicknameSSvM",
+                "mangledName": "$s6CJAuth0A6ResultV8nicknameSSvM",
+                "moduleName": "CJAuth",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "avatar",
+            "printedName": "avatar",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CJAuth0A6ResultV6avatarSSvp",
+            "mangledName": "$s6CJAuth0A6ResultV6avatarSSvp",
+            "moduleName": "CJAuth",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CJAuth0A6ResultV6avatarSSvg",
+                "mangledName": "$s6CJAuth0A6ResultV6avatarSSvg",
+                "moduleName": "CJAuth",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CJAuth0A6ResultV6avatarSSvs",
+                "mangledName": "$s6CJAuth0A6ResultV6avatarSSvs",
+                "moduleName": "CJAuth",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CJAuth0A6ResultV6avatarSSvM",
+                "mangledName": "$s6CJAuth0A6ResultV6avatarSSvM",
+                "moduleName": "CJAuth",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "token",
+            "printedName": "token",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CJAuth0A6ResultV5tokenSSvp",
+            "mangledName": "$s6CJAuth0A6ResultV5tokenSSvp",
+            "moduleName": "CJAuth",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CJAuth0A6ResultV5tokenSSvg",
+                "mangledName": "$s6CJAuth0A6ResultV5tokenSSvg",
+                "moduleName": "CJAuth",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CJAuth0A6ResultV5tokenSSvs",
+                "mangledName": "$s6CJAuth0A6ResultV5tokenSSvs",
+                "moduleName": "CJAuth",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CJAuth0A6ResultV5tokenSSvM",
+                "mangledName": "$s6CJAuth0A6ResultV5tokenSSvM",
+                "moduleName": "CJAuth",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CJAuthResult",
+                "printedName": "CJAuth.CJAuthResult",
+                "usr": "s:6CJAuth0A6ResultV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:6CJAuth0A6ResultV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s6CJAuth0A6ResultV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "CJAuth",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CJAuth0A6ResultV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s6CJAuth0A6ResultV6encode2toys7Encoder_p_tKF",
+            "moduleName": "CJAuth",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:6CJAuth0A6ResultV",
+        "mangledName": "$s6CJAuth0A6ResultV",
+        "moduleName": "CJAuth",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SmartDecodable",
+            "printedName": "SmartDecodable",
+            "usr": "s:12SmartCodable0A9DecodableP",
+            "mangledName": "$s12SmartCodable0A9DecodableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SmartEncodable",
+            "printedName": "SmartEncodable",
+            "usr": "s:12SmartCodable0A9EncodableP",
+            "mangledName": "$s12SmartCodable0A9EncodableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CJAuthResultDelegate",
+        "printedName": "CJAuthResultDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "loginSuccess",
+            "printedName": "loginSuccess(result:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CJAuthResult",
+                "printedName": "CJAuth.CJAuthResult",
+                "usr": "s:6CJAuth0A6ResultV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CJAuth0A14ResultDelegateP12loginSuccess6resultyAA0aB0V_tF",
+            "mangledName": "$s6CJAuth0A14ResultDelegateP12loginSuccess6resultyAA0aB0V_tF",
+            "moduleName": "CJAuth",
+            "genericSig": "<τ_0_0 where τ_0_0 : CJAuth.CJAuthResultDelegate>",
+            "sugared_genericSig": "<Self where Self : CJAuth.CJAuthResultDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loginFailure",
+            "printedName": "loginFailure(reason:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CJAuth0A14ResultDelegateP12loginFailure6reasonySS_tF",
+            "mangledName": "$s6CJAuth0A14ResultDelegateP12loginFailure6reasonySS_tF",
+            "moduleName": "CJAuth",
+            "genericSig": "<τ_0_0 where τ_0_0 : CJAuth.CJAuthResultDelegate>",
+            "sugared_genericSig": "<Self where Self : CJAuth.CJAuthResultDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logoutSuccess",
+            "printedName": "logoutSuccess()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CJAuth0A14ResultDelegateP13logoutSuccessyyF",
+            "mangledName": "$s6CJAuth0A14ResultDelegateP13logoutSuccessyyF",
+            "moduleName": "CJAuth",
+            "genericSig": "<τ_0_0 where τ_0_0 : CJAuth.CJAuthResultDelegate>",
+            "sugared_genericSig": "<Self where Self : CJAuth.CJAuthResultDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logoutFailure",
+            "printedName": "logoutFailure(reason:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CJAuth0A14ResultDelegateP13logoutFailure6reasonySS_tF",
+            "mangledName": "$s6CJAuth0A14ResultDelegateP13logoutFailure6reasonySS_tF",
+            "moduleName": "CJAuth",
+            "genericSig": "<τ_0_0 where τ_0_0 : CJAuth.CJAuthResultDelegate>",
+            "sugared_genericSig": "<Self where Self : CJAuth.CJAuthResultDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "loginFailure",
+            "printedName": "loginFailure(reason:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CJAuth0A14ResultDelegatePAAE12loginFailure6reasonySS_tF",
+            "mangledName": "$s6CJAuth0A14ResultDelegatePAAE12loginFailure6reasonySS_tF",
+            "moduleName": "CJAuth",
+            "genericSig": "<τ_0_0 where τ_0_0 : CJAuth.CJAuthResultDelegate>",
+            "sugared_genericSig": "<Self where Self : CJAuth.CJAuthResultDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logoutSuccess",
+            "printedName": "logoutSuccess()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CJAuth0A14ResultDelegatePAAE13logoutSuccessyyF",
+            "mangledName": "$s6CJAuth0A14ResultDelegatePAAE13logoutSuccessyyF",
+            "moduleName": "CJAuth",
+            "genericSig": "<τ_0_0 where τ_0_0 : CJAuth.CJAuthResultDelegate>",
+            "sugared_genericSig": "<Self where Self : CJAuth.CJAuthResultDelegate>",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "logoutFailure",
+            "printedName": "logoutFailure(reason:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CJAuth0A14ResultDelegatePAAE13logoutFailure6reasonySS_tF",
+            "mangledName": "$s6CJAuth0A14ResultDelegatePAAE13logoutFailure6reasonySS_tF",
+            "moduleName": "CJAuth",
+            "genericSig": "<τ_0_0 where τ_0_0 : CJAuth.CJAuthResultDelegate>",
+            "sugared_genericSig": "<Self where Self : CJAuth.CJAuthResultDelegate>",
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "s:6CJAuth0A14ResultDelegateP",
+        "mangledName": "$s6CJAuth0A14ResultDelegateP",
+        "moduleName": "CJAuth",
+        "genericSig": "<τ_0_0 : ObjectiveC.NSObject>",
+        "sugared_genericSig": "<Self : ObjectiveC.NSObject>",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CJCore",
+        "printedName": "CJCore",
+        "declKind": "Import",
+        "moduleName": "CJAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CJAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CJCore",
+        "printedName": "CJCore",
+        "declKind": "Import",
+        "moduleName": "CJAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CJCore",
+        "printedName": "CJCore",
+        "declKind": "Import",
+        "moduleName": "CJAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "FBSDKLoginKit",
+        "printedName": "FBSDKLoginKit",
+        "declKind": "Import",
+        "moduleName": "CJAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "FirebaseAuth",
+        "printedName": "FirebaseAuth",
+        "declKind": "Import",
+        "moduleName": "CJAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "FirebaseCore",
+        "printedName": "FirebaseCore",
+        "declKind": "Import",
+        "moduleName": "CJAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "Kingfisher",
+        "printedName": "Kingfisher",
+        "declKind": "Import",
+        "moduleName": "CJAuth"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CJFacebookSignIn",
+        "printedName": "CJFacebookSignIn",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CJFacebookSignIn",
+                "printedName": "CJAuth.CJFacebookSignIn",
+                "usr": "c:@M@CJAuth@objc(cs)CJFacebookSignIn"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@CJAuth@objc(cs)CJFacebookSignIn(im)init",
+            "mangledName": "$s6CJAuth16CJFacebookSignInCACycfc",
+            "moduleName": "CJAuth",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@CJAuth@objc(cs)CJFacebookSignIn",
+        "mangledName": "$s6CJAuth16CJFacebookSignInC",
+        "moduleName": "CJAuth",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CJCore",
+        "printedName": "CJCore",
+        "declKind": "Import",
+        "moduleName": "CJAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CJAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "CJCore",
+        "printedName": "CJCore",
+        "declKind": "Import",
+        "moduleName": "CJAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "LineSDK",
+        "printedName": "LineSDK",
+        "declKind": "Import",
+        "moduleName": "CJAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "CJCore",
+        "printedName": "CJCore",
+        "declKind": "Import",
+        "moduleName": "CJAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Combine",
+        "printedName": "Combine",
+        "declKind": "Import",
+        "moduleName": "CJAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "Kingfisher",
+        "printedName": "Kingfisher",
+        "declKind": "Import",
+        "moduleName": "CJAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CJAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "YYText_swift",
+        "printedName": "YYText_swift",
+        "declKind": "Import",
+        "moduleName": "CJAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "CJAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "Kingfisher",
+        "printedName": "Kingfisher",
+        "declKind": "Import",
+        "moduleName": "CJAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "CJCore",
+        "printedName": "CJCore",
+        "declKind": "Import",
+        "moduleName": "CJAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "CJCore",
+        "printedName": "CJCore",
+        "declKind": "Import",
+        "moduleName": "CJAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "LineSDK",
+        "printedName": "LineSDK",
+        "declKind": "Import",
+        "moduleName": "CJAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "AuthenticationServices",
+        "printedName": "AuthenticationServices",
+        "declKind": "Import",
+        "moduleName": "CJAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CJCore",
+        "printedName": "CJCore",
+        "declKind": "Import",
+        "moduleName": "CJAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "FirebaseAuth",
+        "printedName": "FirebaseAuth",
+        "declKind": "Import",
+        "moduleName": "CJAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "FirebaseCore",
+        "printedName": "FirebaseCore",
+        "declKind": "Import",
+        "moduleName": "CJAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "WebKit",
+        "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "CJAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/CJAppAuth.swift",
+      "kind": "BooleanLiteral",
+      "offset": 227,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/CJAppAuth.swift",
+      "kind": "BooleanLiteral",
+      "offset": 266,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/CJAppAuth.swift",
+      "kind": "BooleanLiteral",
+      "offset": 382,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/CJAppAuth.swift",
+      "kind": "BooleanLiteral",
+      "offset": 976,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/CJAppAuth.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1037,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/CJAppAuth.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3490,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/CJAppAuth.swift",
+      "kind": "Dictionary",
+      "offset": 4145,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/utils\/CJAuthI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 154,
+      "length": 17,
+      "value": "\"startupArgument\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/utils\/CJAuthI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 205,
+      "length": 23,
+      "value": "\"launchOptionsArgument\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/utils\/CJAuthI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 265,
+      "length": 26,
+      "value": "\"lineUniversalLinkIllegal\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/utils\/CJAuthI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 324,
+      "length": 22,
+      "value": "\"lineChannelIdIllegal\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/utils\/CJAuthI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 380,
+      "length": 18,
+      "value": "\"appleLoginFailed\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/utils\/CJAuthI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 422,
+      "length": 13,
+      "value": "\"fbTokenDesc\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/utils\/CJAuthI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 464,
+      "length": 18,
+      "value": "\"fbUserCancelAuth\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/utils\/CJAuthI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 507,
+      "length": 14,
+      "value": "\"fbAuthFailed\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/utils\/CJAuthI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 548,
+      "length": 16,
+      "value": "\"fbAppIdInvalid\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/utils\/CJAuthI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 590,
+      "length": 15,
+      "value": "\"lineTokenDesc\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/utils\/CJAuthI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 639,
+      "length": 23,
+      "value": "\"notFoundTopController\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/utils\/CJAuthI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 687,
+      "length": 14,
+      "value": "\"twitterError\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/utils\/CJAuthI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 731,
+      "length": 19,
+      "value": "\"twitterAuthFailed\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/utils\/CJAuthI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 779,
+      "length": 18,
+      "value": "\"twitterTokenDesc\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/utils\/CJAuthI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 833,
+      "length": 20,
+      "value": "\"apiRequestNetError\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/utils\/CJAuthI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 880,
+      "length": 16,
+      "value": "\"appConfigError\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/utils\/CJAuthI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 924,
+      "length": 17,
+      "value": "\"codeSendToEmail\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/utils\/CJAuthI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 969,
+      "length": 17,
+      "value": "\"dataParseFailed\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/utils\/CJAuthI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 1019,
+      "length": 17,
+      "value": "\"imageLoadFailed\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/utils\/CJAuthI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 1059,
+      "length": 12,
+      "value": "\"adaptation\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/utils\/CJAuthI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 1096,
+      "length": 9,
+      "value": "\"account\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/utils\/CJAuthI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 1130,
+      "length": 14,
+      "value": "\"emailAddress\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/utils\/CJAuthI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 1167,
+      "length": 12,
+      "value": "\"verifyCode\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/utils\/CJAuthI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 1196,
+      "length": 6,
+      "value": "\"send\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/utils\/CJAuthI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 1221,
+      "length": 8,
+      "value": "\"signIn\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/utils\/CJAuthI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 1255,
+      "length": 15,
+      "value": "\"agreeProtocol\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/utils\/CJAuthI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 1296,
+      "length": 15,
+      "value": "\"userAgreement\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/utils\/CJAuthI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 1337,
+      "length": 15,
+      "value": "\"privacyPolicy\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/utils\/CJAuthI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 1381,
+      "length": 18,
+      "value": "\"otherLoginMethod\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/utils\/CJAuthI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 1430,
+      "length": 20,
+      "value": "\"toastAgreeProtocol\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/utils\/CJAuthI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 1480,
+      "length": 19,
+      "value": "\"toastEmailAddress\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/utils\/CJAuthI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 1534,
+      "length": 24,
+      "value": "\"toastValidEmailAddress\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/utils\/CJAuthI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 1594,
+      "length": 25,
+      "value": "\"protocolAddressNotFound\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/login\/CJAuthProtocol.swift",
+      "kind": "IntegerLiteral",
+      "offset": 131,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/login\/CJAuthProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 167,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/login\/CJAuthProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 202,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/login\/CJAuthProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 236,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/login\/CJAuthProtocol.swift",
+      "kind": "StringLiteral",
+      "offset": 1202,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/utils\/CJAuthUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 192,
+      "length": 20,
+      "value": "\"userArchiving.data\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/utils\/CJAuthUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 257,
+      "length": 21,
+      "value": "\"tokenArchiving.data\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/utils\/CJAuthUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 354,
+      "length": 12,
+      "value": "\"AvenirNext\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/utils\/CJAuthUtils.swift",
+      "kind": "StringLiteral",
+      "offset": 403,
+      "length": 17,
+      "value": "\"AvenirNext-Bold\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 553,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 614,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 727,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 978,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1151,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1184,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1372,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "StringLiteral",
+      "offset": 1473,
+      "length": 10,
+      "value": "\"Resource\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "StringLiteral",
+      "offset": 1493,
+      "length": 8,
+      "value": "\"bundle\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "StringLiteral",
+      "offset": 1602,
+      "length": 18,
+      "value": "\"icon_bg_portrait\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "StringLiteral",
+      "offset": 1711,
+      "length": 19,
+      "value": "\"icon_bg_landscape\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2115,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2341,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "StringLiteral",
+      "offset": 2518,
+      "length": 11,
+      "value": "\"#66FFFFFF\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2722,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2755,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2814,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2820,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2830,
+      "length": 2,
+      "value": "47"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2842,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "StringLiteral",
+      "offset": 2934,
+      "length": 10,
+      "value": "\"Resource\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "StringLiteral",
+      "offset": 2954,
+      "length": 8,
+      "value": "\"bundle\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "StringLiteral",
+      "offset": 3059,
+      "length": 12,
+      "value": "\"icon_email\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3327,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "StringLiteral",
+      "offset": 3389,
+      "length": 11,
+      "value": "\"#1AFFFFFF\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "FloatLiteral",
+      "offset": 3441,
+      "length": 4,
+      "value": "22.0"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3486,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3753,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3927,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "StringLiteral",
+      "offset": 4102,
+      "length": 11,
+      "value": "\"#66FFFFFF\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4310,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4343,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4402,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4408,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4418,
+      "length": 2,
+      "value": "47"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4430,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "StringLiteral",
+      "offset": 4522,
+      "length": 10,
+      "value": "\"Resource\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "StringLiteral",
+      "offset": 4542,
+      "length": 8,
+      "value": "\"bundle\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "StringLiteral",
+      "offset": 4647,
+      "length": 21,
+      "value": "\"icon_privacy_verify\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4924,
+      "length": 2,
+      "value": "15"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "StringLiteral",
+      "offset": 4995,
+      "length": 11,
+      "value": "\"#1AFFFFFF\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5047,
+      "length": 4,
+      "value": "22.0"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5092,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "StringLiteral",
+      "offset": 5364,
+      "length": 11,
+      "value": "\"#FF00FFAE\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "FloatLiteral",
+      "offset": 5486,
+      "length": 4,
+      "value": "16.0"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5551,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6023,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6056,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6096,
+      "length": 2,
+      "value": "22"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6136,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6200,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6233,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "StringLiteral",
+      "offset": 6285,
+      "length": 11,
+      "value": "\"#FF999999\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 6604,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "StringLiteral",
+      "offset": 6657,
+      "length": 10,
+      "value": "\"Resource\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "StringLiteral",
+      "offset": 6677,
+      "length": 8,
+      "value": "\"bundle\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "StringLiteral",
+      "offset": 6784,
+      "length": 21,
+      "value": "\"icon_privacy_normal\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "StringLiteral",
+      "offset": 6894,
+      "length": 22,
+      "value": "\"icon_privacy_checked\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7363,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7684,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "StringLiteral",
+      "offset": 7735,
+      "length": 11,
+      "value": "\"#66FFFFFF\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "StringLiteral",
+      "offset": 7940,
+      "length": 11,
+      "value": "\"#FF1578F2\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8232,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "StringLiteral",
+      "offset": 8552,
+      "length": 11,
+      "value": "\"#FF1578F2\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 8847,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9248,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "StringLiteral",
+      "offset": 9469,
+      "length": 11,
+      "value": "\"#66FFFFFF\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9565,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 9627,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "Array",
+      "offset": 11637,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "StringLiteral",
+      "offset": 11903,
+      "length": 10,
+      "value": "\"Resource\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "StringLiteral",
+      "offset": 11923,
+      "length": 8,
+      "value": "\"bundle\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "StringLiteral",
+      "offset": 11987,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "StringLiteral",
+      "offset": 12115,
+      "length": 12,
+      "value": "\"icon_guest\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "StringLiteral",
+      "offset": 12235,
+      "length": 12,
+      "value": "\"icon_apple\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "StringLiteral",
+      "offset": 12378,
+      "length": 15,
+      "value": "\"icon_facebook\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "StringLiteral",
+      "offset": 12523,
+      "length": 14,
+      "value": "\"icon_twitter\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "StringLiteral",
+      "offset": 12664,
+      "length": 11,
+      "value": "\"icon_line\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "StringLiteral",
+      "offset": 12803,
+      "length": 12,
+      "value": "\"icon_naver\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 13450,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 13601,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14014,
+      "length": 2,
+      "value": "40"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14167,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginController.swift",
+      "kind": "Array",
+      "offset": 17157,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginItemButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 225,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginItemButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 237,
+      "length": 2,
+      "value": "44"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJLoginItemButton.swift",
+      "kind": "IntegerLiteral",
+      "offset": 298,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/login\/CJTwitterSignIn.swift",
+      "kind": "StringLiteral",
+      "offset": 369,
+      "length": 13,
+      "value": "\"twitter.com\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 377,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJWebViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 449,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/Views\/CJWebViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 862,
+      "length": 5,
+      "value": "false"
+    }
+  ]
+}

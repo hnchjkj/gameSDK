@@ -1,0 +1,11 @@
+framework module CJService {
+  umbrella header "CJService-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module CJService.Swift {
+  header "CJService-Swift.h"
+  requires objc
+}

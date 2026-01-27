@@ -1,0 +1,197 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios13.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name CJCore
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+import Alamofire
+@_exported import CJCore
+import CocoaLumberjack
+import CryptoKit
+import Moya
+import SVProgressHUD
+import SmartCodable
+import Swift
+import Toast_Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public struct CJApiResponse<T> : SmartCodable.SmartCodableX where T : SmartCodable.SmartDecodable, T : SmartCodable.SmartEncodable {
+  public init()
+  public var data: T?
+  public var msg: Swift.String?
+  public var code: Swift.Int
+  public var isSuccess: Swift.Bool {
+    get
+  }
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum CJAppConfig {
+  public struct CJInitialization {
+    public let appkey: Swift.String
+    public let appSecret: Swift.String
+    public let environment: CJCore.CJEnvironment
+    public let logLevel: CocoaLumberjack.DDLogLevel
+  }
+  public static var initialConfig: CJCore.CJAppConfig.CJInitialization?
+  public static var appInfo: CJCore.CJAppInfo?
+}
+public struct CJAppInfo : SmartCodable.SmartCodableX {
+  public init()
+  public var vendorLoginConfigList: [CJCore.CJLoginMethodItem]
+  public var serverDomain: Swift.String
+  public var vendorPayConfigList: [CJCore.CJAppPayInfo]
+  public var userAgreement: Swift.String
+  public var privacyAgreement: Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct CJLoginMethodItem : SmartCodable.SmartCodableX {
+  public init()
+  public var loginType: Swift.String
+  public var loginTypeDesc: Swift.String
+  public var clientId: Swift.String
+  public var clientSecret: Swift.String
+  public var redirectUri: Swift.String
+  public var loginTypeIcon: Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct CJAppPayInfo : SmartCodable.SmartCodableX {
+  public init()
+  public var extraParams: Swift.String
+  public var merchantId: Swift.String
+  public var merchantKey: Swift.String
+  public var payChannel: Swift.String
+  public var payType: Swift.String
+  public var payTypeIcon: Swift.String
+  public var payTypeName: Swift.String
+  public var pay_notifyUrl: Swift.String
+  public var privateKey: Swift.String
+  public var publicKey: Swift.String
+  public var refundNotifyUrl: Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class CJAppConfigWrapper {
+  public static func archiver<T>(_ object: T, filename: Swift.String) -> Swift.Bool where T : SmartCodable.SmartDecodable, T : SmartCodable.SmartEncodable
+  public static func unArchiver<T>(type: T.Type, filename: Swift.String) -> T? where T : SmartCodable.SmartDecodable, T : SmartCodable.SmartEncodable
+  public static func clearCache(filename: Swift.String)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class CJAppCore {
+  public static func register(appkey: Swift.String, appSecret: Swift.String, environment: CJCore.CJEnvironment = .production, delegate: (any CJCore.CJAppInitializationDelegate)? = nil, logLevel: CocoaLumberjack.DDLogLevel = .app) throws
+  @objc deinit
+}
+public protocol CJAppInitializationDelegate : ObjectiveC.NSObject {
+}
+extension CJCore.CJAppInitializationDelegate {
+  public func onStartInitialization()
+  public func onInitializationSuccess()
+  public func onInitializationFailure(reason: Swift.String)
+}
+extension UIKit.UIColor {
+  convenience public init(hex: Swift.String)
+}
+public enum CJEnvironment {
+  case production, sandbox
+  public static func == (a: CJCore.CJEnvironment, b: CJCore.CJEnvironment) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum CJAppError : Swift.Error {
+  case InvalidAppkey
+  case InvalidAppScret
+  case initialization
+  public static func == (a: CJCore.CJAppError, b: CJCore.CJAppError) -> Swift.Bool
+  public func hash(into hasher: inout Swift.Hasher)
+  public var hashValue: Swift.Int {
+    get
+  }
+}
+public enum CJAuthMethod : Swift.String {
+  case guest
+  case apple
+  case facebook
+  case twitter
+  case line
+  case naver
+  case email
+  public var method: Swift.String {
+    get
+  }
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers @_Concurrency.MainActor @preconcurrency public class CJGradientButton : UIKit.UIButton {
+  @_Concurrency.MainActor @preconcurrency public var gradientColors: [UIKit.UIColor] {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var cornerRadius: Swift.Double {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency public var startPoint: CoreFoundation.CGPoint
+  @_Concurrency.MainActor @preconcurrency public var endPoint: CoreFoundation.CGPoint {
+    get
+    set
+  }
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public func layoutSubviews()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class CJLoading {
+  public static func showLoading(_ text: Swift.String = "Logged in")
+  public static func hideLoading()
+  public static func toast(_ message: Swift.String)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class CJLocalization {
+  public static func localized(_ key: Swift.String, bundle: Foundation.Bundle? = Bundle.main) -> Swift.String
+  @objc deinit
+}
+@objc @_inheritsConvenienceInitializers public class CJLogger : ObjectiveC.NSObject {
+  public class func logVerbose(_ message: Swift.String)
+  @objc override dynamic public init()
+  @objc deinit
+}
+extension CocoaLumberjack.DDLogLevel {
+  public static let app: CocoaLumberjack.DDLogLevel
+  public static let sdk: CocoaLumberjack.DDLogLevel
+  public static let xmpp: CocoaLumberjack.DDLogLevel
+}
+extension Foundation.NSNotification.Name {
+  public static let CONFIG_INITIALIZATION_SUCCESSFUL: Foundation.NSNotification.Name
+}
+public class CJRequestInterceptor : @unchecked Swift.Sendable, Moya.PluginType, Alamofire.RequestAdapter, Alamofire.RequestRetrier {
+  public init()
+  public func prepare(_ request: Foundation.URLRequest, target: any Moya.TargetType) -> Foundation.URLRequest
+  public func didReceive(_ result: Swift.Result<Moya.Response, Moya.MoyaError>, target: any Moya.TargetType)
+  public func adapt(_ urlRequest: Foundation.URLRequest, for session: Alamofire.Session, completion: @escaping (Swift.Result<Foundation.URLRequest, any Swift.Error>) -> Swift.Void)
+  public func retry(_ request: Alamofire.Request, for session: Alamofire.Session, dueTo error: any Swift.Error, completion: @escaping (Alamofire.RetryResult) -> Swift.Void)
+  @objc deinit
+}
+public struct CJAuthorization : SmartCodable.SmartCodableX {
+  public init()
+  public var token: Swift.String
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct RetryConfig {
+  public init(maxRetryCount: Swift.Int, retryDelay: Foundation.TimeInterval)
+}
+public protocol CJTargetType : Moya.TargetType {
+  var retryConfig: CJCore.RetryConfig? { get }
+}
+extension CJCore.CJEnvironment : Swift.Equatable {}
+extension CJCore.CJEnvironment : Swift.Hashable {}
+extension CJCore.CJAppError : Swift.Equatable {}
+extension CJCore.CJAppError : Swift.Hashable {}
+extension CJCore.CJAuthMethod : Swift.Equatable {}
+extension CJCore.CJAuthMethod : Swift.Hashable {}
+extension CJCore.CJAuthMethod : Swift.RawRepresentable {}

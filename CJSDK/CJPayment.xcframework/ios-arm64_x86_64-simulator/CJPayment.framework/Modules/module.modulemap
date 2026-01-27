@@ -1,0 +1,11 @@
+framework module CJPayment {
+  umbrella header "CJPayment-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module CJPayment.Swift {
+  header "CJPayment-Swift.h"
+  requires objc
+}
