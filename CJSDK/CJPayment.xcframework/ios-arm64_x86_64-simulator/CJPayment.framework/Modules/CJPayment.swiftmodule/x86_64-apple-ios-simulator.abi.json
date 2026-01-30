@@ -26,6 +26,13 @@
         "name": "CJCore",
         "printedName": "CJCore",
         "declKind": "Import",
+        "moduleName": "CJPayment"
+      },
+      {
+        "kind": "Import",
+        "name": "CJCore",
+        "printedName": "CJCore",
+        "declKind": "Import",
         "moduleName": "CJPayment",
         "declAttributes": [
           "RawDocComment"
@@ -1351,6 +1358,13 @@
       },
       {
         "kind": "Import",
+        "name": "CJCore",
+        "printedName": "CJCore",
+        "declKind": "Import",
+        "moduleName": "CJPayment"
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -1419,6 +1433,13 @@
       },
       {
         "kind": "Import",
+        "name": "CJCore",
+        "printedName": "CJCore",
+        "declKind": "Import",
+        "moduleName": "CJPayment"
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -1431,6 +1452,13 @@
         "kind": "Import",
         "name": "WebKit",
         "printedName": "WebKit",
+        "declKind": "Import",
+        "moduleName": "CJPayment"
+      },
+      {
+        "kind": "Import",
+        "name": "CJCore",
+        "printedName": "CJCore",
         "declKind": "Import",
         "moduleName": "CJPayment"
       },
@@ -1642,131 +1670,138 @@
       "kind": "StringLiteral",
       "offset": 190,
       "length": 15,
+      "value": "\"invalidDomain\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJPayment\/CJPayment\/Classes\/utils\/CJPayI18nKey.swift",
+      "kind": "StringLiteral",
+      "offset": 231,
+      "length": 15,
       "value": "\"requestFailed\""
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJPayment\/CJPayment\/Classes\/utils\/CJPayI18nKey.swift",
       "kind": "StringLiteral",
-      "offset": 232,
+      "offset": 273,
       "length": 16,
       "value": "\"responseFailed\""
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJPayment\/CJPayment\/Classes\/utils\/CJPayI18nKey.swift",
       "kind": "StringLiteral",
-      "offset": 276,
+      "offset": 317,
       "length": 12,
       "value": "\"purchasing\""
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJPayment\/CJPayment\/Classes\/utils\/CJPayI18nKey.swift",
       "kind": "StringLiteral",
-      "offset": 316,
+      "offset": 357,
       "length": 17,
       "value": "\"purchaseSuccess\""
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJPayment\/CJPayment\/Classes\/utils\/CJPayI18nKey.swift",
       "kind": "StringLiteral",
-      "offset": 360,
+      "offset": 401,
       "length": 16,
       "value": "\"purchaseFailed\""
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJPayment\/CJPayment\/Classes\/utils\/CJPayI18nKey.swift",
       "kind": "StringLiteral",
-      "offset": 404,
+      "offset": 445,
       "length": 17,
       "value": "\"restorePurchase\""
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJPayment\/CJPayment\/Classes\/utils\/CJPayI18nKey.swift",
       "kind": "StringLiteral",
-      "offset": 445,
+      "offset": 486,
       "length": 13,
       "value": "\"waitConfirm\""
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJPayment\/CJPayment\/Classes\/utils\/CJPayI18nKey.swift",
       "kind": "StringLiteral",
-      "offset": 490,
+      "offset": 531,
       "length": 17,
       "value": "\"paymentComplete\""
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJPayment\/CJPayment\/Classes\/utils\/CJPayI18nKey.swift",
       "kind": "StringLiteral",
-      "offset": 532,
+      "offset": 573,
       "length": 14,
       "value": "\"readyPayment\""
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJPayment\/CJPayment\/Classes\/utils\/CJPayI18nKey.swift",
       "kind": "StringLiteral",
-      "offset": 574,
+      "offset": 615,
       "length": 17,
       "value": "\"applePayWayDesc\""
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJPayment\/CJPayment\/Classes\/utils\/CJPayI18nKey.swift",
       "kind": "StringLiteral",
-      "offset": 619,
+      "offset": 660,
       "length": 17,
       "value": "\"thirdPayWayDesc\""
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJPayment\/CJPayment\/Classes\/utils\/CJPayI18nKey.swift",
       "kind": "StringLiteral",
-      "offset": 670,
+      "offset": 711,
       "length": 18,
       "value": "\"productIdIsEmpty\""
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJPayment\/CJPayment\/Classes\/utils\/CJPayI18nKey.swift",
       "kind": "StringLiteral",
-      "offset": 714,
+      "offset": 755,
       "length": 15,
       "value": "\"notFoundgoods\""
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJPayment\/CJPayment\/Classes\/utils\/CJPayI18nKey.swift",
       "kind": "StringLiteral",
-      "offset": 757,
+      "offset": 798,
       "length": 17,
       "value": "\"notFoundreceipt\""
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJPayment\/CJPayment\/Classes\/utils\/CJPayI18nKey.swift",
       "kind": "StringLiteral",
-      "offset": 796,
+      "offset": 837,
       "length": 11,
       "value": "\"goodsList\""
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJPayment\/CJPayment\/Classes\/utils\/CJPayI18nKey.swift",
       "kind": "StringLiteral",
-      "offset": 858,
+      "offset": 899,
       "length": 35,
       "value": "\"transactionDelSuccessFromKeychain\""
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJPayment\/CJPayment\/Classes\/utils\/CJPayI18nKey.swift",
       "kind": "StringLiteral",
-      "offset": 938,
+      "offset": 979,
       "length": 34,
       "value": "\"transactionDelFailedFromKeychain\""
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJPayment\/CJPayment\/Classes\/utils\/CJPayI18nKey.swift",
       "kind": "StringLiteral",
-      "offset": 1002,
+      "offset": 1043,
       "length": 14,
       "value": "\"startLoadWeb\""
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJPayment\/CJPayment\/Classes\/utils\/CJPayI18nKey.swift",
       "kind": "StringLiteral",
-      "offset": 1042,
+      "offset": 1083,
       "length": 15,
       "value": "\"loadWebFailed\""
     },
@@ -1864,7 +1899,7 @@
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJPayment\/CJPayment\/Classes\/utils\/CJWebViewController.swift",
       "kind": "StringLiteral",
-      "offset": 164,
+      "offset": 178,
       "length": 17,
       "value": "\"CJNativeHandler\""
     },

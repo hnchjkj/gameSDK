@@ -6,6 +6,7 @@ import Alamofire
 @_exported import CJCore
 import CocoaLumberjack
 import CryptoKit
+import DeviceKit
 import Moya
 import SVProgressHUD
 import SmartCodable
@@ -54,6 +55,7 @@ public struct CJLoginMethodItem : SmartCodable.SmartCodableX {
   public var clientSecret: Swift.String
   public var redirectUri: Swift.String
   public var loginTypeIcon: Swift.String
+  public var appName: Swift.String
   public func encode(to encoder: any Swift.Encoder) throws
   public init(from decoder: any Swift.Decoder) throws
 }

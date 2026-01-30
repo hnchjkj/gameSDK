@@ -16,6 +16,13 @@
       },
       {
         "kind": "Import",
+        "name": "FBSDKCoreKit",
+        "printedName": "FBSDKCoreKit",
+        "declKind": "Import",
+        "moduleName": "CJAuth"
+      },
+      {
+        "kind": "Import",
         "name": "LineSDK",
         "printedName": "LineSDK",
         "declKind": "Import",
@@ -23,15 +30,15 @@
       },
       {
         "kind": "Import",
-        "name": "WRSignInWithApple",
-        "printedName": "WRSignInWithApple",
+        "name": "NidThirdPartyLogin",
+        "printedName": "NidThirdPartyLogin",
         "declKind": "Import",
         "moduleName": "CJAuth"
       },
       {
         "kind": "Import",
-        "name": "FBSDKCoreKit",
-        "printedName": "FBSDKCoreKit",
+        "name": "WRSignInWithApple",
+        "printedName": "WRSignInWithApple",
         "declKind": "Import",
         "moduleName": "CJAuth"
       },
@@ -372,6 +379,73 @@
           },
           {
             "kind": "Function",
+            "name": "onNaverSignIn",
+            "printedName": "onNaverSignIn()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CJAuth9CJAppAuthC13onNaverSignInyyKF",
+            "mangledName": "$s6CJAuth9CJAppAuthC13onNaverSignInyyKF",
+            "moduleName": "CJAuth",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendEmailVerifyCode",
+            "printedName": "sendEmailVerifyCode(emailAddress:completed:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Bool) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CJAuth9CJAppAuthC19sendEmailVerifyCode12emailAddress9completedySS_ySbctF",
+            "mangledName": "$s6CJAuth9CJAppAuthC19sendEmailVerifyCode12emailAddress9completedySS_ySbctF",
+            "moduleName": "CJAuth",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "onEmailSignIn",
             "printedName": "onEmailSignIn(emailAddress:code:)",
             "children": [
@@ -398,7 +472,8 @@
             "mangledName": "$s6CJAuth9CJAppAuthC13onEmailSignIn12emailAddress4codeySS_SStF",
             "moduleName": "CJAuth",
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "RawDocComment"
             ],
             "funcSelfKind": "NonMutating"
           },
@@ -423,6 +498,34 @@
             "declKind": "Func",
             "usr": "s:6CJAuth9CJAppAuthC8onLogout27showLoginControllerWhenExitySb_tF",
             "mangledName": "$s6CJAuth9CJAppAuthC8onLogout27showLoginControllerWhenExitySb_tF",
+            "moduleName": "CJAuth",
+            "declAttributes": [
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onAccountCancellation",
+            "printedName": "onAccountCancellation(showLoginControllerWhenAccountCancellation:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CJAuth9CJAppAuthC21onAccountCancellation023showLoginControllerWheneF0ySb_tF",
+            "mangledName": "$s6CJAuth9CJAppAuthC21onAccountCancellation023showLoginControllerWheneF0ySb_tF",
             "moduleName": "CJAuth",
             "declAttributes": [
               "AccessControl",
@@ -1281,6 +1384,30 @@
           },
           {
             "kind": "Function",
+            "name": "accountCancellationSuccess",
+            "printedName": "accountCancellationSuccess()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:6CJAuth0A14ResultDelegateP26accountCancellationSuccessyyF",
+            "mangledName": "$s6CJAuth0A14ResultDelegateP26accountCancellationSuccessyyF",
+            "moduleName": "CJAuth",
+            "genericSig": "<τ_0_0 where τ_0_0 : CJAuth.CJAuthResultDelegate>",
+            "sugared_genericSig": "<Self where Self : CJAuth.CJAuthResultDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
             "name": "loginFailure",
             "printedName": "loginFailure(reason:)",
             "children": [
@@ -1322,9 +1449,6 @@
             "moduleName": "CJAuth",
             "genericSig": "<τ_0_0 where τ_0_0 : CJAuth.CJAuthResultDelegate>",
             "sugared_genericSig": "<Self where Self : CJAuth.CJAuthResultDelegate>",
-            "declAttributes": [
-              "RawDocComment"
-            ],
             "isFromExtension": true,
             "funcSelfKind": "NonMutating"
           },
@@ -1665,6 +1789,23 @@
       },
       {
         "kind": "Import",
+        "name": "NidThirdPartyLogin",
+        "printedName": "NidThirdPartyLogin",
+        "declKind": "Import",
+        "moduleName": "CJAuth"
+      },
+      {
+        "kind": "Import",
+        "name": "CJCore",
+        "printedName": "CJCore",
+        "declKind": "Import",
+        "moduleName": "CJAuth",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "LineSDK",
         "printedName": "LineSDK",
         "declKind": "Import",
@@ -1718,49 +1859,63 @@
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/CJAppAuth.swift",
       "kind": "BooleanLiteral",
-      "offset": 227,
+      "offset": 253,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/CJAppAuth.swift",
       "kind": "BooleanLiteral",
-      "offset": 266,
+      "offset": 292,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/CJAppAuth.swift",
       "kind": "BooleanLiteral",
-      "offset": 382,
+      "offset": 408,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/CJAppAuth.swift",
       "kind": "BooleanLiteral",
-      "offset": 976,
+      "offset": 472,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/CJAppAuth.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1066,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/CJAppAuth.swift",
       "kind": "BooleanLiteral",
-      "offset": 1037,
+      "offset": 1127,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/CJAppAuth.swift",
       "kind": "BooleanLiteral",
-      "offset": 3490,
+      "offset": 4188,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/CJAppAuth.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4536,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/CJAppAuth.swift",
       "kind": "Dictionary",
-      "offset": 4145,
+      "offset": 5234,
       "length": 3,
       "value": "[]"
     },
@@ -2026,7 +2181,7 @@
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJAuth\/CJAuth\/Classes\/login\/CJAuthProtocol.swift",
       "kind": "StringLiteral",
-      "offset": 1202,
+      "offset": 1156,
       "length": 2,
       "value": "\"\""
     },
