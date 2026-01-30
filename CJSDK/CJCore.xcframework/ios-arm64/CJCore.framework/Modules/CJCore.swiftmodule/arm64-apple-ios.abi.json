@@ -2179,6 +2179,93 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "appName",
+            "printedName": "appName",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:6CJCore17CJLoginMethodItemV7appNameSSvp",
+            "mangledName": "$s6CJCore17CJLoginMethodItemV7appNameSSvp",
+            "moduleName": "CJCore",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CJCore17CJLoginMethodItemV7appNameSSvg",
+                "mangledName": "$s6CJCore17CJLoginMethodItemV7appNameSSvg",
+                "moduleName": "CJCore",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CJCore17CJLoginMethodItemV7appNameSSvs",
+                "mangledName": "$s6CJCore17CJLoginMethodItemV7appNameSSvs",
+                "moduleName": "CJCore",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:6CJCore17CJLoginMethodItemV7appNameSSvM",
+                "mangledName": "$s6CJCore17CJLoginMethodItemV7appNameSSvM",
+                "moduleName": "CJCore",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(from:)",
@@ -5607,8 +5694,8 @@
       },
       {
         "kind": "Import",
-        "name": "SmartCodable",
-        "printedName": "SmartCodable",
+        "name": "DeviceKit",
+        "printedName": "DeviceKit",
         "declKind": "Import",
         "moduleName": "CJCore"
       },
@@ -5616,6 +5703,13 @@
         "kind": "Import",
         "name": "Moya",
         "printedName": "Moya",
+        "declKind": "Import",
+        "moduleName": "CJCore"
+      },
+      {
+        "kind": "Import",
+        "name": "SmartCodable",
+        "printedName": "SmartCodable",
         "declKind": "Import",
         "moduleName": "CJCore"
       },
@@ -6908,77 +7002,84 @@
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJCore\/CJCore\/Classes\/Config\/CJAppConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1695,
+      "offset": 1623,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJCore\/CJCore\/Classes\/Config\/CJAppConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1734,
+      "offset": 1748,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJCore\/CJCore\/Classes\/Config\/CJAppConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1774,
+      "offset": 1787,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJCore\/CJCore\/Classes\/Config\/CJAppConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1813,
+      "offset": 1827,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJCore\/CJCore\/Classes\/Config\/CJAppConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1849,
+      "offset": 1866,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJCore\/CJCore\/Classes\/Config\/CJAppConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1889,
+      "offset": 1902,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJCore\/CJCore\/Classes\/Config\/CJAppConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1929,
+      "offset": 1942,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJCore\/CJCore\/Classes\/Config\/CJAppConfig.swift",
       "kind": "StringLiteral",
-      "offset": 1971,
+      "offset": 1982,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJCore\/CJCore\/Classes\/Config\/CJAppConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2010,
+      "offset": 2024,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJCore\/CJCore\/Classes\/Config\/CJAppConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2048,
+      "offset": 2063,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJCore\/CJCore\/Classes\/Config\/CJAppConfig.swift",
       "kind": "StringLiteral",
-      "offset": 2092,
+      "offset": 2101,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJCore\/CJCore\/Classes\/Config\/CJAppConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 2145,
       "length": 2,
       "value": "\"\""
     },
@@ -7237,14 +7338,14 @@
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJCore\/CJCore\/Classes\/Network\/interceptors\/CJRequestInterceptor.swift",
       "kind": "Dictionary",
-      "offset": 1143,
+      "offset": 1160,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJCore\/CJCore\/Classes\/Network\/interceptors\/CJRequestInterceptor.swift",
       "kind": "StringLiteral",
-      "offset": 7151,
+      "offset": 7772,
       "length": 2,
       "value": "\"\""
     },

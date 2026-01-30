@@ -12,7 +12,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			w2Fi87RPf5BybZNVEcCQRWs14Vg=
+			zngc5/AL0R5ewyEYE/JtlkXtaUs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -21,7 +21,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			2gHGQ4Ix+yiD/vDbEoPQRQ9IfI8=
+			efDN5y68v9WqIkHrkL8SuTI0dyc=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -40,7 +40,7 @@
 		</data>
 		<key>Modules/CJPayment.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		FktAz49Oh1/GYy5107clvZ6OiL4=
+		qYZhQ+x3XTecsTK2mjOu1188Fk8=
 		</data>
 		<key>Modules/CJPayment.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -56,11 +56,11 @@
 		</data>
 		<key>Modules/CJPayment.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		LzAI1CrYuuJwXf7qP9NhpF9Clak=
+		JVCeRSpw3czCl3tWsU6b8LxsuOs=
 		</data>
 		<key>Modules/CJPayment.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		FktAz49Oh1/GYy5107clvZ6OiL4=
+		qYZhQ+x3XTecsTK2mjOu1188Fk8=
 		</data>
 		<key>Modules/CJPayment.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
@@ -76,7 +76,7 @@
 		</data>
 		<key>Modules/CJPayment.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		NQ5zOyN2vEmxiIcmUNgju1Bezi8=
+		FfakF3el1f7RS+LdRBL5/KTQPsY=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -96,7 +96,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7MUqfN1/VsKpToXG5gPYZhmXJ6ZtWgFfXDEabyrG/oQ=
+			AHtQd8UXjFDuriA8Wwhzk2ORlMfiufV+x/aoj9pHxqI=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -105,7 +105,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			+d8ATTk98AOxTUW0VEFrYFHFlJeBUFqXoYRpgk821uQ=
+			3DK/4VPXJ3t+QnNc6XtW8mNC70mQftS2t3E+3KnRsHo=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -128,7 +128,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			qFfj1KUZJrVwiffLUlfihc4u4HWFpTNlGtaEwICer/A=
+			5ZZnrGN6quA/odGCAV44Z0DL8/WwMrRTPk13N05t+fM=
 			</data>
 		</dict>
 		<key>Modules/CJPayment.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
@@ -156,14 +156,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/+628L23EgTvtTkc9qbESeThELt73oHSY+n4fEWQf38=
+			zKeli1YhK+MTB+oBPnrk8jx3LiAGFcvJA0xvyPr6bpA=
 			</data>
 		</dict>
 		<key>Modules/CJPayment.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qFfj1KUZJrVwiffLUlfihc4u4HWFpTNlGtaEwICer/A=
+			5ZZnrGN6quA/odGCAV44Z0DL8/WwMrRTPk13N05t+fM=
 			</data>
 		</dict>
 		<key>Modules/CJPayment.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
@@ -191,7 +191,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ODjIu5avbXbTtoWpvi//8UVwFplzC5vTTP2t/0vIlOU=
+			NeBKL4q/mFnim+APHoRflR764zNRaugcYyFmRGA9Q6s=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

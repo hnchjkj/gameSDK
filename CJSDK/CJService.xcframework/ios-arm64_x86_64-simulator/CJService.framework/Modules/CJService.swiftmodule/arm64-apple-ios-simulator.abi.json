@@ -233,14 +233,14 @@
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/CJAppService.swift",
       "kind": "StringLiteral",
-      "offset": 289,
+      "offset": 281,
       "length": 10,
       "value": "\"Resource\""
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/CJAppService.swift",
       "kind": "StringLiteral",
-      "offset": 316,
+      "offset": 308,
       "length": 8,
       "value": "\"bundle\""
     },
@@ -261,70 +261,56 @@
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJCustomCollectionCell.swift",
       "kind": "StringLiteral",
-      "offset": 239,
+      "offset": 218,
       "length": 17,
       "value": "\"CJService.Photo\""
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJCustomCollectionCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 419,
+      "offset": 398,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJCustomCollectionCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 482,
+      "offset": 461,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJCustomCollectionCell.swift",
       "kind": "StringLiteral",
-      "offset": 685,
-      "length": 10,
-      "value": "\"Resource\""
-    },
-    {
-      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJCustomCollectionCell.swift",
-      "kind": "StringLiteral",
-      "offset": 705,
-      "length": 8,
-      "value": "\"bundle\""
-    },
-    {
-      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJCustomCollectionCell.swift",
-      "kind": "StringLiteral",
-      "offset": 806,
+      "offset": 632,
       "length": 13,
       "value": "\"icon_delete\""
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJCustomCollectionCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 957,
+      "offset": 790,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJCustomCollectionCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1021,
+      "offset": 854,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJCustomCollectionCell.swift",
       "kind": "IntegerLiteral",
-      "offset": 1153,
+      "offset": 986,
       "length": 1,
       "value": "8"
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJCustomCollectionCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 1192,
+      "offset": 1025,
       "length": 4,
       "value": "true"
     },
@@ -338,56 +324,56 @@
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJCustomerServiceCreateController.swift",
       "kind": "IntegerLiteral",
-      "offset": 4990,
+      "offset": 4812,
       "length": 1,
       "value": "9"
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJCustomerServiceCreateController.swift",
       "kind": "Array",
-      "offset": 6677,
+      "offset": 6361,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJCustomerServiceCreateController.swift",
       "kind": "BooleanLiteral",
-      "offset": 12587,
+      "offset": 12271,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJHistoryCell.swift",
       "kind": "StringLiteral",
-      "offset": 247,
+      "offset": 235,
       "length": 15,
       "value": "\"CJHistoryCell\""
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJHistoryCell.swift",
       "kind": "StringLiteral",
-      "offset": 5540,
+      "offset": 5528,
       "length": 25,
       "value": "\"CJHistoryCollectionCell\""
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJHistoryCell.swift",
       "kind": "BooleanLiteral",
-      "offset": 5820,
+      "offset": 5808,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJHistoryController.swift",
       "kind": "IntegerLiteral",
-      "offset": 362,
+      "offset": 344,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJHistoryController.swift",
       "kind": "BooleanLiteral",
-      "offset": 534,
+      "offset": 516,
       "length": 5,
       "value": "false"
     },
@@ -611,35 +597,21 @@
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJListEmptyView.swift",
       "kind": "StringLiteral",
-      "offset": 379,
-      "length": 10,
-      "value": "\"Resource\""
-    },
-    {
-      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJListEmptyView.swift",
-      "kind": "StringLiteral",
-      "offset": 399,
-      "length": 8,
-      "value": "\"bundle\""
-    },
-    {
-      "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJListEmptyView.swift",
-      "kind": "StringLiteral",
-      "offset": 500,
+      "offset": 355,
       "length": 17,
       "value": "\"icon_data_empty\""
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJListEmptyView.swift",
       "kind": "StringLiteral",
-      "offset": 887,
+      "offset": 734,
       "length": 11,
       "value": "\"#FF7B7B7B\""
     },
     {
       "filePath": "\/Users\/shuqu\/Desktop\/as\/shuqu\/gameaggregationsdkios\/CJService\/CJService\/Classes\/Views\/CJListEmptyView.swift",
       "kind": "IntegerLiteral",
-      "offset": 947,
+      "offset": 794,
       "length": 2,
       "value": "16"
     },

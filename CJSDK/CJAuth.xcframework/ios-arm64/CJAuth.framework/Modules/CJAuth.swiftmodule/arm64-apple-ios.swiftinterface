@@ -14,6 +14,7 @@ import Foundation
 import Kingfisher
 import LineSDK
 import Moya
+import NidThirdPartyLogin
 import SmartCodable
 import Swift
 import UIKit
@@ -33,8 +34,11 @@ import _SwiftConcurrencyShims
   public func onFacebookSignIn() throws
   public func onTwitterSignIn() throws
   @_Concurrency.MainActor public func onLineSignIn() throws
+  public func onNaverSignIn() throws
+  public func sendEmailVerifyCode(emailAddress: Swift.String, completed: @escaping (Swift.Bool) -> Swift.Void)
   public func onEmailSignIn(emailAddress: Swift.String, code: Swift.String)
   public func onLogout(showLoginControllerWhenExit: Swift.Bool = true)
+  public func onAccountCancellation(showLoginControllerWhenAccountCancellation: Swift.Bool = true)
   @_Concurrency.MainActor public func application(_ app: UIKit.UIApplication, continue userActivity: Foundation.NSUserActivity, restorationHandler: @escaping ([any UIKit.UIUserActivityRestoring]?) -> Swift.Void) -> Swift.Bool
   @_Concurrency.MainActor public func application(_ app: UIKit.UIApplication, open url: Foundation.URL, options: [UIKit.UIApplication.OpenURLOptionsKey : Any] = [:]) -> Swift.Bool
   @available(iOS 13.0, *)
@@ -55,6 +59,7 @@ public protocol CJAuthResultDelegate : ObjectiveC.NSObject {
   func loginFailure(reason: Swift.String)
   func logoutSuccess()
   func logoutFailure(reason: Swift.String)
+  func accountCancellationSuccess()
 }
 extension CJAuth.CJAuthResultDelegate {
   public func loginFailure(reason: Swift.String)
